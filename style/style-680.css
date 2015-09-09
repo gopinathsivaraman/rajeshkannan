@@ -1,0 +1,203 @@
+body {
+  background: -ms-linear-gradient(top, #0d8296 0%, white 100%) no-repeat;
+  background: -moz-linear-gradient(top, #0d8296 0%, white 100%) no-repeat;
+  background: -webkit-linear-gradient(top, #0d8296 0%, white 100%) no-repeat;
+  background: -o-linear-gradient(top, #0d8296 0%, white 100%) no-repeat; }
+
+.fname {
+  background: url("../icons/fname.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.dob {
+  background: url("../icons/dob.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.marital-status {
+  background: url("../icons/marital-status.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.phone {
+  background: url("../icons/phone.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.email {
+  background: url("../icons/email.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.location {
+  background: url("../icons/location.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.award {
+  background: url("../icons/award.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.award-1 {
+  background: url("../icons/award-1.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.award-2 {
+  background: url("../icons/award-2.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.award-3 {
+  background: url("../icons/award-3.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.award-4 {
+  background: url("../icons/award-4.png") no-repeat rgba(13, 130, 150, 0.3); }
+
+.bq {
+  margin: 0.5% auto 0 auto;
+  text-align: left; }
+  .bq blockquote {
+    margin: 0; }
+    .bq blockquote p {
+      font-weight: 900;
+      color: white; }
+    .bq blockquote footer {
+      color: black; }
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center; }
+
+.wrapper .avatar {
+  width: 100%; }
+  .wrapper .avatar img {
+    height: 256px;
+    width: 256px;
+    border-radius: 128px;
+    margin: 2% auto 2% auto;
+    max-width: 100%; }
+  .wrapper .avatar img {
+    max-width: 100%; }
+
+.skill-imgs img {
+  margin: 2% 2%;
+  height: 64px;
+  width: 64px; }
+
+.academic .certification .img-container-alt {
+  float: left;
+  text-align: center; }
+
+.graduation, .certification {
+  margin: 0 auto;
+  height: 128px;
+  padding-top: 2px; }
+
+.graduation .course, .certification .course {
+  float: left; }
+
+.graduation .img-container, .certification .img-container {
+  float: left;
+  text-align: center; }
+
+.graduation .img-container img, .certification .img-container img {
+  max-width: 100%;
+  width: 128px;
+  max-height: 100%; }
+
+.academic .course blockquote {
+  margin: 0;
+  border-left-color: #0d8296; }
+
+.academic .course blockquote {
+  margin: 0;
+  border-right-color: #0d8296 !important; }
+
+.details {
+  width: 80%;
+  text-align: center;
+  margin: 1% auto 0 auto; }
+  .details p {
+    text-align: left;
+    line-height: 32px;
+    margin-left: 45px; }
+  .details .awards, .details .personal-info {
+    width: 50%;
+    float: left; }
+    .details .awards div, .details .personal-info div {
+      margin: 1% auto 0 auto;
+      width: 90%;
+      height: 32px; }
+
+.details h2 {
+  border-bottom: 2px solid #0d8296; }
+
+.github {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 1% auto 0 auto; }
+  .github div {
+    margin: 0 auto 2% auto;
+    font-size: 2em;
+    background: rgba(13, 130, 150, 0.4);
+    padding: 1em 0; }
+    .github div a {
+      text-decoration: none; }
+      .github div a:focus {
+        border: 0;
+        outline: 0; }
+
+.bq {
+  width: 90%; }
+
+.wrapper {
+  width: 85%; }
+
+.wrapper img {
+  max-width: 100%; }
+
+.graduation, .certification {
+  width: 100%; }
+
+.graduation .course, .certification .course {
+  width: 100%; }
+
+.graduation .img-container {
+  width: 100%; }
+  .graduation .img-container img {
+    height: 32px;
+    width: 32px; }
+
+.academic .certification .img-container-alt {
+  display: block !important;
+  width: 100%; }
+  .academic .certification .img-container-alt img {
+    height: 32px;
+    width: 32px; }
+
+.certification .img-container {
+  display: none; }
+
+.details {
+  width: 80%;
+  margin: 0 auto; }
+  .details .awards {
+    width: 100%;
+    margin: 0; }
+    .details .awards div {
+      width: 100%;
+      height: 64px;
+      background-position: 0 50%;
+      display: block; }
+      .details .awards div p {
+        height: 64px;
+        vertical-align: middle;
+        display: table-cell;
+        padding-left: 45px;
+        font-size: 120%; }
+  .details .personal-info {
+    width: 100%;
+    margin: 0; }
+    .details .personal-info div {
+      width: 100%;
+      height: 64px;
+      background-position: 0 50%;
+      display: block; }
+    .details .personal-info p {
+      height: 64px;
+      vertical-align: middle;
+      display: table-cell;
+      font-size: 120%;
+      padding-left: 45px; }
+
+.github div {
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+/*# sourceMappingURL=style-680.css.map */

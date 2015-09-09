@@ -1,0 +1,117 @@
+$blockquote-border-color: rgb(13, 130, 150)
+$list: fname dob marital-status phone email location award
+body
+  background: -ms-linear-gradient(top, rgb(13,130,150) 0%, white 100%) no-repeat
+  background: -moz-linear-gradient(top, rgb(13,130,150) 0%, white 100%) no-repeat
+  background: -webkit-linear-gradient(top, rgb(13,130,150) 0%, white 100%) no-repeat
+  background: -o-linear-gradient(top, rgb(13,130,150) 0%, white 100%) no-repeat
+
+@each $item in $list
+  .#{$item}
+    background: url("../icons/#{$item}.png") no-repeat rgba(13, 130, 150, 0.3)
+
+@for $i from 1 through 4
+  .award-#{$i}
+    background: url("../icons/award-#{$i}.png") no-repeat rgba(13, 130, 150, 0.3)
+.bq
+  margin: 0.5% auto 0 auto
+  text-align: left
+  blockquote
+    margin: 0
+    p
+      font-weight: 900
+      color: white
+    footer
+      color: black
+.wrapper
+  margin: 0 auto
+  text-align: center
+.wrapper
+  .avatar
+    width: 100%
+    img
+      height: 256px
+      width: 256px
+      border-radius: 128px
+      margin: 2% auto 2% auto
+      max-width: 100%
+    //background: url("../images/avatar-new.png")
+    //background-size: cover
+    //border-radius: 128px
+    //height: 256px
+    //width: 256px
+    //margin: 2% auto 2% auto
+    //max-width: 100%
+    img
+      max-width: 100%
+.skill-imgs img
+  margin: 2% 2%
+  height: 64px
+  width: 64px
+
+=level-one-container
+  margin: 0 auto
+  height: 128px
+  padding-top: 2px
+=level-two-container-lg
+  float: left
+=level-two-container-sm
+  float: left
+  text-align: center
+=academic-img
+  max-width: 100%
+  width: 128px
+  max-height: 100%
+=academic-blockquote
+  margin: 0
+  //height: 128px
+.academic .certification .img-container-alt
+  +level-two-container-sm
+.graduation, .certification
+  +level-one-container
+.graduation .course, .certification .course
+  +level-two-container-lg
+.graduation .img-container, .certification .img-container
+  +level-two-container-sm
+.graduation .img-container img, .certification .img-container img
+  +academic-img
+.academic .course blockquote
+  +academic-blockquote
+  border-left-color: $blockquote-border-color
+.academic .course blockquote
+  +academic-blockquote
+  border-right-color: $blockquote-border-color !important
+
+.details
+  width: 80%
+  text-align: center
+  margin: 1% auto 0 auto
+  p
+    text-align: left
+    line-height: 32px
+    margin-left: 45px
+  .awards, .personal-info
+    width: 50%
+    float: left
+    div
+      margin: 1% auto 0 auto
+      width: 90%
+      height: 32px
+.details h2
+  border-bottom: 2px solid rgb(13, 130, 150)
+
+.github
+  width: 100%
+  float: left
+  text-align: center
+  margin: 1% auto 0 auto
+  div
+    margin: 0 auto 2% auto
+    font-size: 2em
+    background: rgba(13, 130, 150, 0.4)
+    padding: 1em 0
+    a
+      text-decoration: none
+      &:focus
+        border: 0
+        outline: 0
